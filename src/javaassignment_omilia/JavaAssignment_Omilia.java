@@ -28,14 +28,14 @@ public class JavaAssignment_Omilia
         Thread.sleep(1000);
         
         NumbersByUser numsByUser = new NumbersByUser();
-        String number = numsByUser.inputNumbers(num);                                                       // method called from NumbersByUser class
+        String number = numsByUser.inputNumbers(num);
         if (number == null)
         {
             return;
         }
-        boolean valResult = numsByUser.checkNumber(number);                                                 // method called from NumbersByUser class
+        boolean valResult = numsByUser.checkNumber(number);
 
-        System.out.println(number);                                                                         // printing the final result of the given inputs
+        System.out.println(number);                                                                         // printing the final result of the given input
         if (valResult == true)
         {
             System.out.println("[phone number: VALID]");                                                    // notifying user that restrictions were met and input was ok
